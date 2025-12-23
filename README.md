@@ -31,6 +31,20 @@ This project was built to demonstrate authentication and authorization in ASP.NE
 - Secure user management
 - MVC architecture
 
+## 📸 Screenshots
+
+### Register
+![Register](screenshots/register.png)
+
+### Login
+![Login](screenshots/login.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Login Validation
+![Login Validation](screenshots/login-validation.png)
+
 ## Author
 Emely Mokgadi Machete  
 Junior Software Developer
