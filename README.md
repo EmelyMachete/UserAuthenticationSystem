@@ -1,14 +1,14 @@
 # User Authentication System
 
 ## Overview
-The User Authentication System implements secure user registration, login, logout, and protected routes using ASP.NET Core Identity. The system is designed to manage authentication and access control responsibly by relying on established, framework-provided security mechanisms.
+The User Authentication System implements secure user registration, login, logout, and protected routes using ASP.NET Core Identity. The system is designed to handle authentication and access control using established, framework-provided security mechanisms rather than custom implementations.
 
-This project demonstrates a solid understanding of authentication fundamentals and correct handling of user identity in modern web applications.
+This project focuses on correct handling of user identity, authentication state, and protected resources in a modern ASP.NET Core application.
 
 ## Problem Statement
-Authentication is a critical requirement for most real-world systems, and incorrect implementations can introduce serious security vulnerabilities such as weak password handling or unauthorized access.
+Authentication is a core requirement for most real-world systems, and incorrect implementations can introduce serious security vulnerabilities such as weak password handling or unauthorized access.
 
-This application addresses that risk by using ASP.NET Core Identity to manage credentials, authentication state, and protected routes in a standardized and secure manner.
+This application addresses that risk by relying on ASP.NET Core Identity to manage credentials, authentication workflows, and protected routes in a standardized and secure manner.
 
 ## Core Features
 - User registration with validated input
@@ -23,29 +23,28 @@ This application addresses that risk by using ASP.NET Core Identity to manage cr
 - Authentication: ASP.NET Core Identity
 - ORM: Entity Framework Core
 - Database: SQL Server
-- Architecture: Model–View–Controller (MVC)
+- Architecture: Model-View-Controller (MVC)
 
 ## System Design and Engineering Decisions
 - ASP.NET Core Identity is used to avoid custom authentication logic and reduce security risk
-- Authorization attributes are applied to enforce protected routes consistently
-- Identity data is persisted using Entity Framework Core migrations to maintain schema consistency
-- Security-sensitive logic is delegated to framework-tested components
+- Authorization attributes are applied consistently to enforce protected routes
+- Identity data is persisted using Entity Framework Core migrations to maintain schema integrity
+- Security-sensitive operations are delegated to framework-tested components
 
 ## Assumptions and Limitations
 - Single-tenant authentication model
-- No role-based authorization or policies
+- No role-based authorization or access policies
 - No email verification or password recovery workflows
 - No external identity providers
 
 ## What I Would Improve Next
 - Role-based authorization and access policies
-- Email verification and password reset flows
+- Email verification and password reset workflows
 - Account lockout and advanced security configuration
-- External identity provider integration
+- External identity provider integration (OAuth)
 
 ## Outcome
-This project demonstrates responsible and correct implementation of authentication using established frameworks, with a focus on security, correctness, and maintainability.
-
+This project demonstrates responsible implementation of authentication using ASP.NET Core Identity, with an emphasis on security, correctness, and maintainability.
 
 ## 📸 Screenshots
 
@@ -63,4 +62,4 @@ This project demonstrates responsible and correct implementation of authenticati
 
 ## Author
 Emely Mokgadi Machete  
-Junior Software Developer
+Junior Software Engineer (ASP.NET / C#)
